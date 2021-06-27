@@ -41,14 +41,14 @@ class SplashScreen {
             "text-align": "center",
             "font-size": "70pt",
             "font-family": "Roboto",
-            "font-weight": "Regular",
+            "font-weight": "normal",
             "text-shadow": "rgba(0, 0, 0, 0.25) 0px 3px 3px",
           }
         },{
           "format": ["h:mm", "A"],
           "css": [
             {"font-size": "65pt", "font-weight": 200 },
-            {"font-size": "30pt", "font-weight": "Regular", "margin-left": "10pt"}
+            {"font-size": "30pt", "font-weight": "normal", "margin-left": "10pt"}
           ],
           "parent-css": {
             "margin-top": "20vh",
