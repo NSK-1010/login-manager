@@ -15,20 +15,19 @@
 				"margin-top": "calc(20vh - 70pt)",
 				"text-align": "center",
 				"font-size": "70pt",
-				"font-family": ["Roboto", "sans-serif"],
-				"font-weight": "normal",
+				"font-family": ["Roboto"]
 				"text-shadow": "rgba(0, 0, 0, 0.5) 0px 3px 3px",
 			}
     },{
 			"format": ["h:mm", "A"],
 			"css": [
 				{"font-size": "65pt", "font-weight": 200 },
-				{"font-size": "30pt", "font-weight": "normal", "margin-left": "10pt"}
+				{"font-size": "30pt", "margin-left": "10pt"}
 			],
 			"parent-css": {
 				"margin-top": "20vh",
 				"color": "white",
-				"font-family": ["Roboto", "sans-serif"],
+				"font-family": ["Roboto"],
 				"text-align": "center",
 				"text-shadow": "rgba(0, 0, 0, 0.25) 0px 3px 3px",
 			}
