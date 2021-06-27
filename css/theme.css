@@ -1,4 +1,5 @@
 /* Simple example of css used to stylize the login screen */
+@import url("../fonts/fonts.css")
 * {
   /* webkit2 is very slow, this is supposed to speed up animations */
   backface-visibility: hidden;
@@ -8,6 +9,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   color: white;
+  font-family: "Jost", "GenEiMGothic", sans-serif;
   background-color: #34495e;
   /* background: radial-gradient(center, ellipse cover, #455a64 10%, #263238 100%); */
   overflow: hidden;
@@ -54,9 +56,6 @@ div#console .terminal text {
   font-size: 3vh;
   font-weight: lighter;
 }
-.logo-ubuntu {
-  height: 10vh;
-}
-.logo-arch {
+.logo-flag {
   height: 15vh;
 }
