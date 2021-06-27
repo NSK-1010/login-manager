@@ -40,7 +40,7 @@ class SplashScreen {
             "margin-top": "calc(20vh - 70pt)",
             "text-align": "center",
             "font-size": "70pt",
-            "font-family": "Roboto",
+            "font-family": ["Roboto", "sans-serif"],
             "font-weight": "normal",
             "text-shadow": "rgba(0, 0, 0, 0.25) 0px 3px 3px",
           }
@@ -53,7 +53,7 @@ class SplashScreen {
           "parent-css": {
             "margin-top": "20vh",
             "color": "white",
-            "font-family": "Roboto",
+            "font-family": ["Roboto", "sans-serif"],
             "text-align": "center",
             "text-shadow": "rgba(0, 0, 0, 0.25) 0px 3px 3px",
           }

@@ -1,5 +1,23 @@
 /* Simple example of css used to stylize the login screen */
-@import url("../fonts/fonts.css")
+/* 日本語のフォント */
+@font-face {
+	font-family: 'GenEiMGothic';
+	src: url('../fonts/GenEiMGothic2-Regular.ttf') format('truetype');
+
+}
+/* 英語のフォント */
+@font-face {
+	font-family: 'Jost';
+	src: url('../fonts/Jost-400-Book.ttf') format('truetype');
+
+}
+/* 時計のフォント */
+@font-face {
+	font-family: 'Roboto';
+	font-weight: normal;
+	src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+
+}
 * {
   /* webkit2 is very slow, this is supposed to speed up animations */
   backface-visibility: hidden;
